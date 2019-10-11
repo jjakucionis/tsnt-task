@@ -1,0 +1,37 @@
+.addItem {
+    display: flex;
+}
+
+.addItem__text {
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+}
+
+.addItem__text::placeholder {
+    font-size: 20px;
+}
+
+.addItem__btn {
+    height: 50px;
+    width: 100px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    line-height: 2.5em;
+    padding-left: 1em;
+    letter-spacing: .1em;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.addItem__btn:hover {
+    background-color: teal;
+}
+
+.close {
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    display: inline-block;
+}
